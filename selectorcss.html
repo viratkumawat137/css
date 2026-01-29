@@ -1,0 +1,111 @@
+<!doctype html>
+<html> <head></head> <title> virat 137</title>
+<style>
+/*.main{
+    background-size: cover;
+    background-image:url(./autism-day-with-colorful-portrait.jpg);
+  background-attachment: fixed;
+
+}*/
+
+
+
+/*1=child combinator*
+div>p{background-color: yellow;
+
+} */
+
+
+
+
+/*2=descendant combinator(  )
+div p{background-color: yellow;
+    font-size: larger;
+}  */ 
+
+
+
+
+/*3=adjacent sibling combinator(+ )
+div+.paragaraf{background-color: rgb(140, 0, 255);
+    font-size: larger;
+}  */
+
+
+
+
+/*4=general sibling combinator(~)
+div~p{
+    background-color: aqua;
+} 
+*/
+
+/*
+input::placeholder{ color: red;
+}*/
+
+/*suedo classes
+input:hover{background-color: lime;
+
+} */
+/*
+input:first-child{background-color: rgb(0, 183, 255);}
+*/
+
+h1::before{
+    content:"WELCOME";
+    color:aqua;
+    font-size: 100px;
+}
+
+
+h1::after{
+    content:" TO MY WORLD  ";
+    color:aqua;
+    font-size: 100px;
+} 
+
+ h1::first-line{
+    content:" TO MY WORLD  ";
+    color:rgb(0, 255, 106);
+    
+}  
+h1::first-letter{
+    content:" TO MY WORLD  ";
+    color:rgb(255, 221, 0);
+    font-size: 150px;
+} 
+
+
+P::selection{background-color: darkblue;}
+H2{FONT-FAMILY:CURSIVE;}
+
+
+
+
+
+</style></head> 
+
+<body>
+<h1>Lorem ipsum dolor sit amet consectetur </h1>
+    <input type="text"  placeholder="enter name " name="" id=""> 
+    <h2>Lorem ipsum dolor sit amet.
+    </h2>
+<div class="main"><p>1.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, vitae.</p>
+<p>2.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, saepe.</p>
+<p>3.Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, itaque.</p>
+
+<span><p>4.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, nisi!</p></span>
+
+ </div>
+ 
+ 
+ 
+  <p class="paragaraf" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, ipsa? </p>
+ <p class="paragaraf" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, ipsa? </p>
+ <p class="paragaraf" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, ipsa? </p>
+ <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, ipsa? </p>
+
+
+</body> 
+</html>
