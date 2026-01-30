@@ -10,9 +10,8 @@
     background-color: rgb(59, 89, 152);
     color:white;
     font-size:60px;
-    padding: 10px 0px 0px 140px;
- box-sizing:border-box;
-  
+    padding: 1px 199px 0px 140px;
+  font-weight:bold;
   float:left;
 }
 .box2 {
@@ -23,7 +22,8 @@
     font-size:10px;
   float:left;
   padding-top:20px;
-  box-sizing: border-box;
+   box-sizing: border-box;
+ 
 
 }
 .box3 {
@@ -35,7 +35,7 @@
     float:left;
      padding-top:20px;
   box-sizing: border-box;
-  
+  font-weight:bold;
     
 }
 .box4 {
@@ -48,20 +48,47 @@
    padding-top:30px;
   box-sizing: border-box;
  position:relative;
- 
+ font-weight:bold;
 }
 
-
+.box5 {
+    width:622px;
+    height:500px;
+    padding-top:20px;
+    background-color: rgb(151, 162, 182);
+    color:rgb(12, 12, 7);
+    font-size:15px;
+  float:left;
+   line-height: 0.2;
+ font-weight:bold;
+ padding-left:150px;
+}
+.box6 {
+    width:622px;
+    height:500px;
+    background-color:rgb(243, 245, 249);
+    color:rgb(60, 60, 59);
+    font-size:20px;
+  float:left;
+  font-weight:600;
+ line-height: 0.5;
+}
 
 input{outline:none;
    border:none;
 
 
+
 }
-.LOGINBT {padding-top:3PX;
-    padding-bottom:3px;
-    padding-right:5px;
-    padding-left:5px;
+
+
+
+
+
+.LOGINBT {padding-top:7PX;
+    padding-bottom:7px;
+    padding-right:9px;
+    padding-left:9px;
     box-sizing:border-box;
     background-color:rgb(66, 103, 178);
     color: white;
@@ -69,12 +96,26 @@ input{outline:none;
     font-weight: bold; 
     width:70px; 
     margin-left:10px ;      
-   
+   border:none;
     
    
 }
 
-
+.LOGINbutton {padding-top:7PX;
+    padding-bottom:7px;
+    padding-right:15px;
+    padding-left:15px;
+   
+    background-color:rgb(102, 156, 76);
+    color: white;
+    font-size: 10px;         
+    font-weight: bold; 
+    width:70px; 
+    margin-left:10px ;      
+   border:none;
+  border-radius:5px;
+   
+}
 
 
 
@@ -90,13 +131,107 @@ input{outline:none;
 
 </div> 
  <div class="box4"> <button class="LOGINBT">Log In</button></div>  
+ <div class="box5"><h2> Facebook help you connect and share with</h2>
+<h2>the people in your life.</h2> <img src="./facebook image.png" alt="" width="500px" height="300px">
+</div>
+ <div class="box6"><h1>Create a new account <h2>It's quick and easy</h2></h1>
+<input type="text" placeholder="first name" > <input type="text" placeholder="surename"><br> <br><input type="text" placeholder="mobile number or Email address " > <br> <br>
+<input type="text" placeholder=" new password" >  <br><br>
+
+<h>birthday</h> <br><br>
+       <label for="years"></label>
+      
+                    
+          <select id="day">
+           <option value="1" selected>1</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>  
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <optionn value="31">31</optionn>
+        </select>
+
+            <select id="month">
+           <option value="month" selected disabled >Jan</option>
+            <option value="2020">jan</option>
+            <option value="2021">feb</option>
+            <option value="2022">mar</option>
+            <option value="2023">apr</option> 
+            <option value="2024">may</option>
+            <option value="2025">jun</option>
+            <option value="2026">jul</option>
+            <option value="2027">aug</option>
+            <option value="2028">sep</option>
+            <option value="2029">oct</option>
+            <option value="2030">nov</option>
+            <option value="2031">dec</option>
+        
+        
+        
+        
+        
+        
+        </select>
+
+
+  <select id="years">
+            <option value="year"selected disabled>2021</option>
+            <option value="2020">2024</option>
+            <option value="2021">2025</option>
+            <option value="2022">2026</option>
+            <option value="2023">2027</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+        
+
+
+        </select> 
+            <br> <br>
+            <h>Gendar</h><br><br>
+            <label for="color" ></label>
+            <label for ="male" ></label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for ="female">female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for ="other">male</label>
+            <input type="radio" id="other" name="gender" value="other">
+             <label for ="other">other</label>
+           <br>
+            <br>
+            <br>
+By clicking Sign Up,you agree to our Terms,Data Policy and Cookie <br><br>Policy.You may recevie SMS notification from us and can opt out at any <br><br> time <br><br>
+
+ <button class="LOGINbutton">Sing Up</button></div>  
+</div>
  
 
-
-
-
-
-   
 </body>
-
 </html>
