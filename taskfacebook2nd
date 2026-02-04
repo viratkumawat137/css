@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook login page </title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            }
+        .main{
+            width: 100%;
+            height: 130px;
+            background-color: #3A5696;
+            
+        }
+        .logo{
+            color: white;
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        .box{
+            width: 50%;
+            height: 150px;
+            float: left;
+        }
+        .innerBox{
+            width: 33%;
+            height: 150px;
+            float: left;
+            color: aliceblue;
+        }
+        .loginBtn{
+            padding: 10px 30px;
+            background-color: #3A5696;
+            color: white;
+            border: none;
+            font-size: 16px;
+            box-shadow: inset 0px 0px 10px 2px white;
+            margin-top: 10px;
+        }
+
+        .sec2{
+            width: 100%;
+            height: 700px;
+            background-image: linear-gradient(to bottom,#DDDEE1,#9aa4c0);
+        }
+    
+        .innserSec2{
+            width: 50%;
+            height: 600px;
+            float: left;
+      
+        }
+        .heading{
+            margin-left: 50px;
+        }
+        .mobile {width: 100%;
+        margin-top: 30px;}
+        .loginBt{
+          background-color:rgb(112,157,88);
+    color: black;
+    font-size: 10px;         
+    font-weight: bold; 
+    width:70px; 
+    height:30px;   
+   border:none;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box"><h1 class="logo">facebook</h1></div>
+        <div class="box">
+            <div class="innerBox">
+                <br>
+                <br>
+                <br>
+                <label for="">Email</label>
+                <br>
+                <input type="email">
+            </div>
+            <div class="innerBox">
+                <br>
+                <br>
+                <br>
+
+                   <label for="">Password</label>
+                <br>
+                <input type="password"><br><br>
+                <label for="">Forget Password</label>
+            </div>
+            <div class="innerBox">
+                <br>
+                <br>
+                <br>
+
+                <button class="loginBtn">Login</button>
+            </div>
+        </div>
+        <div></div>
+    </div>
+
+    <div class="sec2">
+        <div class="innserSec2">
+            <h1 class="heading">Facebook helps you connect and share with the people in your life</h1>
+            <img src="./sahilfacebook-removebg-preview.png" width="100%" alt="">
+        </div>
+        <div class="innserSec2">  <div class="box6"><h1>Create a new account <h2>It's quick and easy</h2></h1>
+<input type="text" placeholder="first name" >  <input type="text" placeholder="surename"><br>  <div class="mobile"  <br> <input placeholder="mobile number or Email  " ></div> <br> <br>
+<input type="text" placeholder=" new password" >  <br><br>
+
+<h>birthday</h> <br><br>
+       <label for="years"></label>
+      
+                    
+          <select id="day">
+           <option value="1" selected>1</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>  
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <optionn value="31">31</optionn>
+        </select>
+
+            <select id="month">
+           <option value="month" selected disabled >Jan</option>
+            <option value="2020">jan</option>
+            <option value="2021">feb</option>
+            <option value="2022">mar</option>
+            <option value="2023">apr</option> 
+            <option value="2024">may</option>
+            <option value="2025">jun</option>
+            <option value="2026">jul</option>
+            <option value="2027">aug</option>
+            <option value="2028">sep</option>
+            <option value="2029">oct</option>
+            <option value="2030">nov</option>
+            <option value="2031">dec</option>
+        
+        
+        
+        
+        
+        
+        </select>
+
+
+  <select id="years">
+            <option value="year"selected disabled>2021</option>
+            <option value="2020">2024</option>
+            <option value="2021">2025</option>
+            <option value="2022">2026</option>
+            <option value="2023">2027</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+        
+
+
+        </select> 
+            <br> <br>
+            <h>Gendar</h><br><br>
+            <label for="color" ></label>
+            <label for ="male" ></label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for ="female">female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for ="other">male</label>
+            <input type="radio" id="other" name="gender" value="other">
+             <label for ="other">other</label>
+           <br>
+           
+<h2>By clicking Sign Up,you agree to our Terms,Data Policy and Cookie <br>Policy.You may recevie SMS notification from us and can opt out at any <br> time <br></h2>
+
+ <button class="loginBt">Sing Up</button></div>  
+            
+        </div>
+    </div>
+</body>
+</html>
